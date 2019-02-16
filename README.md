@@ -14,7 +14,6 @@ pip install git+https://github.com/iamtrump/jenkins-update-center
 ```
 openssl genrsa -out update-center.key 2048
 openssl req -new -x509 -days 1825 -key update-center.key -outform der -out update-center.der
-
 ```
 2. Rsync `plugins` and `war` dirs into your www root directory:
 ```
