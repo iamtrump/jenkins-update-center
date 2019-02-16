@@ -1,4 +1,4 @@
-# Jenkins Update Center Generator
+# jenkuc — Jenkins update center
 Simple Jenkins update center implementation.
 
 ## Limitations
