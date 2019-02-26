@@ -35,7 +35,7 @@ www_url = "http://jenkins.local"
 private_key = "update-center.key"
 public_key = "update-center.der"
 
-# Load origignal update center
+# Load original update center
 with open(original_update_center_json, "r") as fd:
   original = json.loads(fd.read().replace("updateCenter.post(\n", "").replace("\n);", ""))
 
