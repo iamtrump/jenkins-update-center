@@ -50,3 +50,6 @@ with open(www_root+"/update-center.json", "w") as fd:
 ```
 5. Put `update-center.der` into `${JENKINS_HOME}/update-center-rootCAs` folder.
 6. Go to `Jenkins → Manage Jenkins → Manage Plugins → Advanced → Update Site` and submit URL to your `update-center.json`.
+
+## Acknowledgments
+Big thanks to my friend [Vadim Alimguzhin](https://www.researchgate.net/profile/Vadim_Alimguzhin).
